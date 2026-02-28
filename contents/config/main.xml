@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="fontFamily"        type="String"><default>Noto Sans</default></entry>
+        <entry name="fontSize"          type="Int">   <default>14</default></entry>
+        <entry name="boldText"          type="Bool">  <default>false</default></entry>
+        <entry name="italicText"        type="Bool">  <default>false</default></entry>
+        <entry name="showTitle"         type="Bool">  <default>true</default></entry>
+        <entry name="bgStyle"           type="Int">   <default>1</default></entry>
+        <entry name="bgOpacity"         type="Int">   <default>50</default></entry>
+        <entry name="saveFile"          type="String"><default></default></entry>
+        <entry name="tasksJson"         type="String"><default>[]</default></entry>
+        <entry name="jsonbinApiKey"     type="String"><default></default></entry>
+        <entry name="jsonbinBinId"      type="String"><default></default></entry>
+        <entry name="syncInterval"      type="Int">   <default>30</default></entry>
+
+        <entry name="colorTitle"        type="String"><default>#ffffff</default></entry>
+        <entry name="colorTask"         type="String"><default>#ffffff</default></entry>
+        <entry name="colorTaskDone"     type="String"><default>#888888</default></entry>
+        <entry name="colorPlaceholder"  type="String"><default>#88ffffff</default></entry>
+        <entry name="colorEmpty"        type="String"><default>#66ffffff</default></entry>
+        <entry name="colorDivider"      type="String"><default>#33ffffff</default></entry>
+        <entry name="colorCheckBorder"  type="String"><default>#aaffffff</default></entry>
+        <entry name="colorCheckFill"    type="String"><default>#ffffff</default></entry>
+        <entry name="colorCheckIcon"    type="String"><default>#222222</default></entry>
+        <entry name="colorInputBorder"  type="String"><default>#44ffffff</default></entry>
+        <entry name="colorInputBg"      type="String"><default>#18ffffff</default></entry>
+        <entry name="colorBtnAdd"       type="String"><default>#22ffffff</default></entry>
+        <entry name="colorBtnAddBorder" type="String"><default>#44ffffff</default></entry>
+        <entry name="colorBtnAddIcon"   type="String"><default>#ffffff</default></entry>
+        <entry name="colorActionIcons"  type="String"><default>#aaffffff</default></entry>
+        <entry name="colorHoverBg"      type="String"><default>#11ffffff</default></entry>
+    </group>
+</kcfg>

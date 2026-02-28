@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Id": "org.kde.plasma.transparenttodo",
+        "Name": "Transparent To-Do",
+        "Name[pt_BR]": "To-Do Transparente",
+        "Description": "Lista de tarefas customizável com glass, transparência e sync via JSONBin.",
+        "Description[pt_BR]": "Lista de tarefas customizável com glass, transparência e sync via JSONBin.",
+        "Icon": "checkmark",
+        "Category": "Utilities",
+        "Version": "2.2",
+        "License": "GPL-2.0-or-later",
+        "Authors": [{ "Name": "User", "Email": "" }],
+        "EnabledByDefault": true
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

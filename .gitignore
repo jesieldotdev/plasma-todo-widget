@@ -1,0 +1,9 @@
+# KDE build artifacts
+*.pyc
+__pycache__/
+.kdev4/
+*.kdev4
+
+# Archives
+*.tar.gz
+*.zip
