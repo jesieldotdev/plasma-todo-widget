@@ -181,7 +181,7 @@ PlasmoidItem {
                 visible: root.showTitle
 
                 Kirigami.Icon {
-                    source: "checkmark"; width: root.fontSize+4; height: root.fontSize+4
+                    source: "dialog-ok"; width: root.fontSize+4; height: root.fontSize+4
                     isMask: true; color: root.colorTitle
                 }
                 Text {

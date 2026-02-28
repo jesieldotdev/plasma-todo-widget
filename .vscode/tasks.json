@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Iniciar Plasmoid Viewer",
+            "type": "shell",
+            "command": "plasmoidviewer",
+            "args": ["-a", "."],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Executa o comando 'plasmoidviewer -a .' para visualizar o plasmoid."
+        }
+    ]
+}
