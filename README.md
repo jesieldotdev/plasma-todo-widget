@@ -19,7 +19,7 @@ Widget de lista de tarefas para KDE Plasma 6 com suporte a:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/plasma-todo-widget
+git clone https://github.com/jesieldotdev/plasma-todo-widget
 cd plasma-todo-widget
 
 # Instala
