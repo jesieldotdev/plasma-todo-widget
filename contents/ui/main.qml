@@ -8,6 +8,8 @@ import org.kde.plasma.core as PlasmaCore
 
 PlasmoidItem {
     id: root
+    implicitWidth: 300
+    implicitHeight: 300
 
     property string fontFamily:        Plasmoid.configuration.fontFamily        || "Noto Sans"
     property int    fontSize:          Plasmoid.configuration.fontSize           || 14
@@ -141,7 +143,7 @@ PlasmoidItem {
 
     fullRepresentation: Item {
         id: mainItem
-        implicitWidth:  300
+        width: 500
         implicitHeight: Math.max(100, taskColumn.implicitHeight + 28)
 
         property real bgAlpha: root.bgStyle === 2 ? 0 : (root.bgOpacity / 100)
@@ -172,7 +174,7 @@ PlasmoidItem {
 
         ColumnLayout {
             id: taskColumn
-            anchors { top: parent.top; left: parent.left; right: parent.right; margins: 14 }
+            anchors { top: parent.top; left: parent.left; right: parent.right; margins: 24 }
             spacing: 6
 
             // ── Título ─────────────────────────────────────────

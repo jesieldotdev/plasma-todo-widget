@@ -9,10 +9,11 @@
         "Category": "Utilities",
         "Version": "2.2",
         "License": "GPL-2.0-or-later",
-        "Authors": [{ "Name": "User", "Email": "" }],
+        "Authors": [{ "Name": "Jesiel", "Email": "" }],
         "EnabledByDefault": true
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0",
-    "X-Plasma-MainScript": "ui/main.qml"
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-ConfigFile": "ui/configAppearance.qml"
 }
