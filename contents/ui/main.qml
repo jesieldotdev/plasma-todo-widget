@@ -1,3 +1,4 @@
+
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
@@ -320,7 +321,7 @@ PlasmoidItem {
                             border.color: root.colorCheckBorder; border.width: 1.5
                             Behavior on color { ColorAnimation { duration: 150 } }
                             Kirigami.Icon {
-                                anchors.centerIn: parent; source: "checkmark"
+                                anchors.centerIn: parent; source: "dialog-ok"
                                 width: 13; height: 13; isMask: true
                                 color: root.colorCheckIcon
                                 visible: model.done
