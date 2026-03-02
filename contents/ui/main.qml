@@ -317,13 +317,13 @@ PlasmoidItem {
                         // Checkbox
                         Rectangle {
                             width: 20; height: 20; radius: 5
-                            color: model.done ? root.colorCheckFill : "transparent"
+                            color: "transparent"
                             border.color: root.colorCheckBorder; border.width: 1.5
                             Behavior on color { ColorAnimation { duration: 150 } }
                             Kirigami.Icon {
                                 anchors.centerIn: parent; source: "dialog-ok"
                                 width: 13; height: 13; isMask: true
-                                color: root.colorCheckIcon
+                                color: root.colorCheckFill
                                 visible: model.done
                             }
                             MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor
